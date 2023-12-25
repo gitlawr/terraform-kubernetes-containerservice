@@ -16,6 +16,7 @@ locals {
     "walrus.seal.io/project-id"     = local.project_id
     "walrus.seal.io/environment-id" = local.environment_id
     "walrus.seal.io/resource-id"    = local.resource_id
+    "walrus.seal.io/enable-proxy-endpoints"    = "true"
   }
   labels = {
     "walrus.seal.io/catalog-name"     = "terraform-kubernetes-containerservice"
